@@ -1,0 +1,27 @@
+{
+  "name": "date-in-timezone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-test-coverage --test-coverage-branches=100 test"
+  },
+  "tags": [
+    "Date",
+    "Time",
+    "Timezone",
+    "DST",
+    "offset"
+  ],
+  "keywords": [],
+  "author": "Kory Nunn <knunn187@gmail.com>",
+  "license": "ISC",
+  "description": "Constructs a `Date` object for a given locale date and time",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/date-in-timezone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/date-in-timezone/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/date-in-timezone#readme"
+}
