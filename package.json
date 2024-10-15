@@ -5,6 +5,9 @@
   "scripts": {
     "test": "node --experimental-test-coverage --test-coverage-branches=100 test"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "tags": [
     "Date",
     "Time",
