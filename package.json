@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-test-coverage --test-coverage-branches=100 test"
-  },
-  "engines": {
-    "node": ">=22"
+    "test-coverage": "node --experimental-test-coverage --test-coverage-branches=100 test",
+    "test-no-coverage": "node test",
+    "test": "node -v | awk -F. '{exit $1<22}' && npm run test-coverage || npm run test-no-coverage"
   },
   "tags": [
     "Date",
